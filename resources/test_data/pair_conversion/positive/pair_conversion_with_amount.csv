@@ -1,0 +1,4 @@
+name,base_currency,target_currency,amount
+AED to USD,AED,USD,100
+HKD to SGD,HKD,SGD,25
+VND to JPY,VND,JPY,500000
