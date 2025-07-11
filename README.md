@@ -45,3 +45,14 @@ To run the tests in the current project just simply execute `pytest` in the term
 - `resources` contains the files that are used and also generated from the project.
 - `tests` contains the test details.
 - `utils` contains the utilities that can be used across the project.
+
+## Test cases
+| Test case | Base Currency | Target Currency |
+| ----------- | ----------- | ----------- |
+| Convert a pair of currencies | USD | EUR |
+| Convert a pair of currencies with unknown currency codes | ABC | TXT |
+
+| Test case | Base Currency | Target Currency | Amount |
+| ----------- | ----------- | ----------- | ----------- |
+| Convert a pair of currencies with amount | AED | USD | 100 |
+| Convert a pair of currencies with negative amount | MYR | IDR | -34 |
